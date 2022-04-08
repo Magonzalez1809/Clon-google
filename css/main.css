@@ -37,9 +37,6 @@ nav .nav-right-section a{
     margin: 10px;
 }
 
-nav .nav-right-section .menu-account-img{
-    background-image: url('');
-}
 
 nav .nav-right-section img{
     margin-top: 10px;
@@ -54,9 +51,71 @@ nav .nav_logo{
 }
 
 main{
-    display: flex;
+    margin-top: 20px;
+    text-align: center;
 }
-main  section .main-button{
-    display: inline;
+
+main .main-img {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+main .main-input{
+width: 60rem;
+margin: 0 auto;
+margin-bottom: 1.5rem;
+}
+
+
+main .main-input-container{
+    width: 36.4rem;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 1px solid #dadce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-input-container input{
+    width: 32rem;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447 ;
+    border-color: #dfe1e500;
+}
+
+main .main-button{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+main .main-button div{
+   margin: 0.4rem;
+}
+
+main .main-button button{
+    width: 11rem;
+    height: 2.3rem;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+ }
+
+ main .main-button button{
+    width: 10rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 4px;
+ }
+
+ main .main-button button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 0px #dadce0;
+ }
