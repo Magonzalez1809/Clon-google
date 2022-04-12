@@ -5,11 +5,12 @@
 
 html{
     font-size: 62,5%;
-    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header {
-    height: 48px;
+    height: 2.5rem;
     width: 100%;
 
 }
@@ -21,42 +22,149 @@ header nav{
 }
 
 header nav .nav-right-section{
-    /*width: 250px;*/
-    height: auto;
     display: flex;
     list-style: none;
+    justify-content: center;
     align-items: center;
 }
+
  a {
     text-decoration: none;
     cursor: pointer;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 nav .nav-right-section a{
-    margin: 10px;
-}
-
-nav .nav-right-section .menu-account-img{
-    background-image: url('');
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
 }
 
 nav .nav-right-section img{
-    margin-top: 10px;
-    width: 2rem;
-    height: 2rem;
+    margin-right: 15px;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+svg {
+    fill: currentColor;
 }
 
 nav .nav_logo{
-    width: 20px;
-    height: 20px;
-     margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 20px;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #5f6368;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 main{
-    display: flex;
+    margin-top: 20px;
+    text-align: center;
 }
-main  section .main-button{
-    display: inline;
+
+main .main-img {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+main .main-input{
+width: 60rem;
+margin: 0 auto;
+margin-bottom: 1.5rem;
+}
+
+
+main .main-input-container{
+    width: 36.4rem;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 1px solid #dadce0;
+    display: flex;
+    justify-content: center;
     align-items: center;
+
+}
+
+main .main-input-container input{
+    width: 32rem;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447 ;
+    border-color: #dfe1e500;
+}
+
+main .main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-button div{
+   margin: 0.4rem;
+}
+
+main .main-button button{
+    width: 11rem;
+    height: 2.3rem;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+ }
+
+ main .main-button button{
+    width: 10rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 4px;
+ }
+
+ main .main-button button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 0px #dadce0;
+ }
+
+ footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top:1px solid #e7e8ea;
+    
+ }
+
+footer ul{
+   
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    
+}
+
+ footer .footer_left{
+    justify-self: left;  
+ }
+
+ footer .footer_right{
+    justify-self: right; 
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #70757a;
+    font-size: 0.9rem;
 }
