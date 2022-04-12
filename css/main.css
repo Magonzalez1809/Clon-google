@@ -5,7 +5,7 @@
 
 html{
     font-size: 62,5%;
-    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+
 }
 
 header {
@@ -27,7 +27,9 @@ header nav .nav-right-section{
     list-style: none;
     align-items: center;
 }
- a {
+
+
+a {
     text-decoration: none;
     cursor: pointer;
     font-size: 0.6rem;
@@ -119,3 +121,38 @@ main .main-button button{
     border: 1px solid #dadce0;
     box-shadow: 0px 1px 0px #dadce0;
  }
+
+ footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top:1px solid #e7e8ea;
+    
+ }
+
+footer ul{
+   
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    
+}
+
+ footer .footer_left{
+    justify-self: left;  
+ }
+
+ footer .footer_right{
+    justify-self: right; 
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #70757a;
+    font-size: 1rem;
+}
